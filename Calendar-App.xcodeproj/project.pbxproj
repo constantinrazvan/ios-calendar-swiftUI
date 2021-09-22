@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,6 @@
 		2A1AEC0926F90A6A00A3BEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1AEC0826F90A6A00A3BEF7 /* Assets.xcassets */; };
 		2A1AEC0C26F90A6A00A3BEF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1AEC0B26F90A6A00A3BEF7 /* Preview Assets.xcassets */; };
 		2A1AEC0F26F90A6A00A3BEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A1AEC0D26F90A6A00A3BEF7 /* LaunchScreen.storyboard */; };
-		2A1AEC1826F9146A00A3BEF7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AEC1726F9146A00A3BEF7 /* Home.swift */; };
 		2A1AEC1A26F9147200A3BEF7 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AEC1926F9147200A3BEF7 /* Tasks.swift */; };
 		2A1AEC1C26F9147A00A3BEF7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AEC1B26F9147A00A3BEF7 /* Profile.swift */; };
 		2A1AEC2126F922AA00A3BEF7 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AEC2026F922AA00A3BEF7 /* EditProfileVC.swift */; };
@@ -22,6 +21,9 @@
 		2A1AEC2726F922D800A3BEF7 /* SendFeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AEC2626F922D800A3BEF7 /* SendFeedbackVC.swift */; };
 		2A1AEC2926F9230300A3BEF7 /* WriteAReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AEC2826F9230300A3BEF7 /* WriteAReviewVC.swift */; };
 		2A1AEC2F26F9262600A3BEF7 /* TermsOfUseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1AEC2E26F9262600A3BEF7 /* TermsOfUseVC.swift */; };
+		2A77A9C926FB7734006559D0 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 2A77A9C826FB7734006559D0 /* FSCalendar */; };
+		2A77A9CB26FB8FFD006559D0 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77A9CA26FB8FFC006559D0 /* Calendar.swift */; };
+		2A77A9CD26FB94C4006559D0 /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77A9CC26FB94C4006559D0 /* WeekDay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +35,6 @@
 		2A1AEC0B26F90A6A00A3BEF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A1AEC0E26F90A6A00A3BEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A1AEC1026F90A6A00A3BEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A1AEC1726F9146A00A3BEF7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2A1AEC1926F9147200A3BEF7 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 		2A1AEC1B26F9147A00A3BEF7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		2A1AEC2026F922AA00A3BEF7 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
@@ -42,6 +43,8 @@
 		2A1AEC2626F922D800A3BEF7 /* SendFeedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendFeedbackVC.swift; sourceTree = "<group>"; };
 		2A1AEC2826F9230300A3BEF7 /* WriteAReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteAReviewVC.swift; sourceTree = "<group>"; };
 		2A1AEC2E26F9262600A3BEF7 /* TermsOfUseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseVC.swift; sourceTree = "<group>"; };
+		2A77A9CA26FB8FFC006559D0 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		2A77A9CC26FB94C4006559D0 /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A77A9C926FB7734006559D0 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +78,6 @@
 		2A1AEC0126F90A6900A3BEF7 /* Calendar-App */ = {
 			isa = PBXGroup;
 			children = (
-				2A1AEC1E26F9201700A3BEF7 /* Extensions */,
-				2A1AEC1D26F9201000A3BEF7 /* Model */,
 				2A1AEC1626F9145600A3BEF7 /* ViewControllers */,
 				2A1AEC0226F90A6900A3BEF7 /* AppDelegate.swift */,
 				2A1AEC0426F90A6900A3BEF7 /* SceneDelegate.swift */,
@@ -84,6 +86,7 @@
 				2A1AEC0D26F90A6A00A3BEF7 /* LaunchScreen.storyboard */,
 				2A1AEC1026F90A6A00A3BEF7 /* Info.plist */,
 				2A1AEC0A26F90A6A00A3BEF7 /* Preview Content */,
+				2A77A9CC26FB94C4006559D0 /* WeekDay.swift */,
 			);
 			path = "Calendar-App";
 			sourceTree = "<group>";
@@ -100,30 +103,16 @@
 			isa = PBXGroup;
 			children = (
 				2A1AEC1F26F9229600A3BEF7 /* ProfileVCButtons */,
-				2A1AEC1726F9146A00A3BEF7 /* Home.swift */,
 				2A1AEC1926F9147200A3BEF7 /* Tasks.swift */,
 				2A1AEC1B26F9147A00A3BEF7 /* Profile.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		2A1AEC1D26F9201000A3BEF7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2A1AEC1E26F9201700A3BEF7 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		2A1AEC1F26F9229600A3BEF7 /* ProfileVCButtons */ = {
 			isa = PBXGroup;
 			children = (
+				2A77A9CA26FB8FFC006559D0 /* Calendar.swift */,
 				2A1AEC2026F922AA00A3BEF7 /* EditProfileVC.swift */,
 				2A1AEC2226F922BD00A3BEF7 /* PrivacyVC.swift */,
 				2A1AEC2426F922CA00A3BEF7 /* PrivacyPolicyVC.swift */,
@@ -150,6 +139,9 @@
 			dependencies = (
 			);
 			name = "Calendar-App";
+			packageProductDependencies = (
+				2A77A9C826FB7734006559D0 /* FSCalendar */,
+			);
 			productName = "Calendar-App";
 			productReference = 2A1AEBFF26F90A6900A3BEF7 /* Calendar-App.app */;
 			productType = "com.apple.product-type.application";
@@ -177,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 2A1AEBF626F90A6900A3BEF7;
+			packageReferences = (
+				2A77A9C726FB7734006559D0 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 2A1AEC0026F90A6900A3BEF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -211,8 +206,9 @@
 				2A1AEC2926F9230300A3BEF7 /* WriteAReviewVC.swift in Sources */,
 				2A1AEC0526F90A6900A3BEF7 /* SceneDelegate.swift in Sources */,
 				2A1AEC2726F922D800A3BEF7 /* SendFeedbackVC.swift in Sources */,
-				2A1AEC1826F9146A00A3BEF7 /* Home.swift in Sources */,
+				2A77A9CD26FB94C4006559D0 /* WeekDay.swift in Sources */,
 				2A1AEC2126F922AA00A3BEF7 /* EditProfileVC.swift in Sources */,
+				2A77A9CB26FB8FFD006559D0 /* Calendar.swift in Sources */,
 				2A1AEC1A26F9147200A3BEF7 /* Tasks.swift in Sources */,
 				2A1AEC0726F90A6900A3BEF7 /* ContentView.swift in Sources */,
 				2A1AEC2F26F9262600A3BEF7 /* TermsOfUseVC.swift in Sources */,
@@ -413,6 +409,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A77A9C726FB7734006559D0 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A77A9C826FB7734006559D0 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A77A9C726FB7734006559D0 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A1AEBF726F90A6900A3BEF7 /* Project object */;
 }

@@ -18,19 +18,20 @@ struct Tasks: View {
                
         UINavigationBar.appearance().standardAppearance = NavAppearance
         UINavigationBar.appearance().scrollEdgeAppearance = NavAppearance
-
     }
+        
     var body: some View {
         NavigationView {
             ZStack{
                 VStack{
-                    
+            
                 }
             }
             .navigationBarTitle("Tasks")
         }
     }
 }
+
 
 struct Tasks_Previews: PreviewProvider {
     static var previews: some View {

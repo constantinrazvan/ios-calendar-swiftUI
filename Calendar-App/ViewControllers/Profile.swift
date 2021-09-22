@@ -34,7 +34,7 @@ struct Profile: View {
                         VStack(alignment: .leading){
                             Button("Sign In") {
                                 auth()
-                            }.font(.callout).foregroundColor(Color(.systemOrange))
+                            }.font(.callout).foregroundColor(Color.black)
                         }
                     }
                 }
@@ -115,7 +115,7 @@ struct Profile: View {
     
     func auth() {
         print("auth pressed")
-    }
+        }
     }
 
 struct Profile_Previews: PreviewProvider {
